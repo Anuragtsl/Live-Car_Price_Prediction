@@ -110,6 +110,3 @@ if st.button("𝐂𝐚𝐥𝐜𝐮𝐥𝐚𝐭𝐞 𝐒𝐞𝐥𝐥𝐢𝐧𝐠 
 if st.button("𝐑𝐞𝐥𝐨𝐚𝐝"):
     pyautogui.hotkey("CTRL","F5")
             
-    
-pip3 freeze > requirements.txt
-
