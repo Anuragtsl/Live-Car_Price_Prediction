@@ -1,3 +1,2 @@
 streamlit
-pickle
-datetime
+pickle==4.0
