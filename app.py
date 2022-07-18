@@ -1,7 +1,6 @@
 import pickle
 import streamlit as st
 import datetime as dt
-import pyautogui
 
 
 # load model
@@ -107,6 +106,3 @@ if st.button("𝐂𝐚𝐥𝐜𝐮𝐥𝐚𝐭𝐞 𝐒𝐞𝐥𝐥𝐢𝐧𝐠 
     result = prediction(present_price, kms_driven, owner, tot_year, fuel_type, seller_type, transmission) 
     st.success('𝐘𝐨𝐮𝐫 𝐜𝐮𝐫𝐫𝐞𝐧𝐭 𝐬𝐞𝐥𝐥𝐢𝐧𝐠 𝐩𝐫𝐢𝐜𝐞 𝐢𝐬 {} 𝐥𝐚𝐤𝐡𝐬'.format(result))
     
-if st.button("𝐑𝐞𝐥𝐨𝐚𝐝"):
-    pyautogui.hotkey("CTRL","F5")
-            
