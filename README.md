@@ -12,7 +12,7 @@ I have used [Streamlit](https://docs.streamlit.io/) library for WEB UI and [Hero
 
 # Preview
 
-![Image1]()
+![Image1](https://github.com/Anuragtsl/Live-Car_Price_Prediction/blob/main/images/1.png)
 
 
 #Njoy!!
